@@ -3,7 +3,7 @@
   <title>
     Forest Garden Wales:&nbsp;
     {{- if eq .Type "status" -}}
-      {{- substr (.Summary | markdownify) 0 30 -}}…
+      {{- substr (.Title | markdownify) 0 30 -}}…
     {{- else -}}
       {{- .Title -}}
     {{- end -}}
