@@ -1,8 +1,5 @@
-# indiego.org.uk
+# indiego
 
-Website for Indiego Hugo socially-aware theme
+Socially aware Hugo blog template
 
-Getting there, patience please…
-
-Right, most of microformats done. Not 100% sure about `e-content`. Time to test the RSS…
-
+![Indiego logo](static/img/logo.svg)

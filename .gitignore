@@ -26,11 +26,11 @@ ehthumbs.db
 Thumbs.db
 *.sublime-workspace
 *.sublime-project
-*.indiego.code-workspace
+*.code-workspace
 
 # The Build Directory #
 #######################
-public
+dist
 
 # Logs
 logs
