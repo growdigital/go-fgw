@@ -23,7 +23,7 @@
         &lt;p class="p-summary"&gt;{{ .Description }}&lt;/p&gt;
         {{ if .Params.image }}
           &lt;figure&gt;
-            &lt;img src=&quot;{{ .Params.image }}&quot; alt=&quot;{{ .Params.imageAlt }}&quot;&gt;\
+            &lt;img src=&quot;{{ .Params.image }}&quot; alt=&quot;{{ .Params.imageAlt }}&quot;&gt;
             &lt;figcaption&gt;{{ .Params.imageCap }}&lt;/figcaption&gt;
           &lt;/figure&gt;
         {{ end }}
