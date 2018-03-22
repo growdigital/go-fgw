@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <title>Forest Garden Wales Blog</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
@@ -20,12 +20,12 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        <p class="p-summary">{{ .Description }}</p>
+        &lt;p class="p-summary"&gt;{{ .Description }}&lt;/p&gt;
         {{ if .Params.image }}
-        <figure>
-          <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
-          <figcaption>{{ .Params.imageCap }}</figcaption>
-        </figure>
+          &lt;figure&gt;
+            &lt;img src=&quot;{{ .Params.image }}&quot; alt=&quot;{{ .Params.imageAlt }}&quot;&gt;\
+            &lt;figcaption&gt;{{ .Params.imageCap }}&lt;/figcaption&gt;
+          &lt;/figure&gt;
         {{ end }}
         {{ .Content | html }}
       </description>
