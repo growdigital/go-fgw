@@ -6,6 +6,14 @@
   /* Colors
      ======================================================================== */
 
+  --green: #718754;
+  --green_light: #d2e0af;
+  --green_wash: #f6fce6;
+  --green_white: #f8fbf2;
+  --orange: #ff2600;
+  --brown: #75613d;
+
+
   --dark: #383838;
   --gray: #808080;
   --light: #eee;
@@ -18,7 +26,8 @@
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
-  --base_font: sans-serif;
-  --base_fontsize: 16px;
+  --base_font: "Droid Serif";
+  --base_fontsize: 18px;
   --base_lineheight: 1.5;
+
 }
