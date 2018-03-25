@@ -10,7 +10,7 @@ h4,
 h5 {
   color: var(--orange);
   font-family: Cabin, sans-serif;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h1 {

@@ -32,3 +32,7 @@
 .header__h a:hover {
   color: green;
 }
+
+.header__cloud {
+  margin-left: 14%;
+}

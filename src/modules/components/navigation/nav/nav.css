@@ -5,3 +5,8 @@
 .nav {
   background-color: var(--green);
 }
+
+/* Nav active item */
+/* .nav .is-active {
+  color: var(--dark) !important;
+} */
