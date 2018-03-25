@@ -9,3 +9,25 @@
 .header__logo {
   height: 43px;
 }
+
+.header__h {
+  font-size: 1.4375rem;
+}
+
+.header__h a:link,
+.header__h a:visited {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.header__h a:active,
+.header__h a:hover {
+  color: green;
+}
+
+.header__card {
+  /* Use linear gradient as background image, so that logo can sit on top of the 1px line
+   * https://stackoverflow.com/questions/33233989/is-it-possible-to-make-a-hard-edged-gradient-on-a-large-element#33234075
+   */
+  background-image: linear-gradient(to top, var(--green_white), var(--green_white) 1px, rgba(255,255,255,0) 0);
+}
