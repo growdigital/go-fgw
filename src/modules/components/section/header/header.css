@@ -6,8 +6,16 @@
   background-color: var(--green_light);
 }
 
+.header__card {
+  /* Use linear gradient as background image, so that logo can sit on top of the 1px line */
+  background-image: linear-gradient(to top, var(--green_white), var(--green_white) 1px, rgba(255,255,255,0) 0);
+  display: flex;
+  padding: 20px 0 0 14px;
+}
+
 .header__logo {
   height: 43px;
+  margin-right: 11px;
 }
 
 .header__h {
@@ -23,11 +31,4 @@
 .header__h a:active,
 .header__h a:hover {
   color: green;
-}
-
-.header__card {
-  /* Use linear gradient as background image, so that logo can sit on top of the 1px line
-   * https://stackoverflow.com/questions/33233989/is-it-possible-to-make-a-hard-edged-gradient-on-a-large-element#33234075
-   */
-  background-image: linear-gradient(to top, var(--green_white), var(--green_white) 1px, rgba(255,255,255,0) 0);
 }

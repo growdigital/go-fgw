@@ -22,12 +22,6 @@
  */
 
 
-.wrapper > * {
-  margin: 0 auto;
-  max-width: 44rem;
-}
-
-
 /* Nav active item */
 .nav .is-active {
   color: var(--dark) !important;
