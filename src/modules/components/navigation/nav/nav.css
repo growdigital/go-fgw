@@ -4,9 +4,22 @@
 
 .nav {
   background-color: var(--green);
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 12px 0;
 }
 
+.nav > * {
+  margin: 0 1rem;
+}
 /* Nav active item */
 /* .nav .is-active {
   color: var(--dark) !important;
 } */
+
+.nav a:link,
+.nav a:visited {
+  color: white;
+  text-decoration: none;
+}
