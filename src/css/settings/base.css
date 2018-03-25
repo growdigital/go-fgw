@@ -16,7 +16,7 @@
 
 /* Apply variables */
 html {
-  background-color: var(--lightest);
+  background-color: var(--green_wash);
   color: var(--dark);
   font-family: var(--base_font);
   font-size: var(--base_fontsize);

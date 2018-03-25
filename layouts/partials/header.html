@@ -4,12 +4,12 @@
       <a class="p-org u-url" rel="me" href="{{ .Site.BaseURL }}" title="Link to home page">{{ .Site.Title }}</a>
     </h2>
     <a href="{{ .Site.BaseURL }}" title="Link to home page">
-      <img class="u-photo" src="{{ .Site.BaseURL }}img/logo.svg" alt="{{ .Site.Title }} logo">
+      <img class="u-photo header__logo" src="{{ .Site.BaseURL }}img/logo-banner.svg" alt="{{ .Site.Title }} logo">
     </a>
-    <h3 class="p-note">{{ .Site.Params.Description }}</h3>
+    <h3 class="p-note u-hidden">{{ .Site.Params.Description }}</h3>
   </div>
   <nav class="nav">
-    {{ $currentPage := . }} 
+    {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <a class="{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}

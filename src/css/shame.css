@@ -21,9 +21,6 @@
  * 😄
  */
 
-.wrapper {
-  padding: 1.5rem;
-}
 
 .wrapper > * {
   margin: 0 auto;
@@ -35,9 +32,9 @@
   text-align: center;
 }
 
-.header {
+/* .header {
   padding-top: 1rem;
-}
+} */
 
 .header img {
   display: inline-block;
@@ -110,7 +107,12 @@ hr {
 
 .meta dt {
   float: left;
-width: 8em;
-font-weight: bold;
+  width: 8em;
+  font-weight: bold;
+}
+
+
+.border {
+  border: 1px solid red;
 }
 
