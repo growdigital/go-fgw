@@ -32,7 +32,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: var(--indigo);
+  color: var(--purple);
   text-decoration: underline;
 }
 

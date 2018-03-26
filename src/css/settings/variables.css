@@ -6,6 +6,7 @@
   /* Colors
      ======================================================================== */
 
+  --green_forest: #555632;
   --green: #718754;
   --green_light: #d2e0af;
   --green_wash: #f6fce6;
@@ -14,21 +15,17 @@
   --orange_tint: #eb4b2d;
   --brown: #75613d;
 
-
-  --dark: #383838;
-  --gray: #808080;
-  --light: #eee;
-  --lightest: #f7f7f7;
-  --blue: #3131f0;
-  --blueviolet: blueviolet;
+  --dark: #383a35;
+  --blue: #0066ff;
   --purple: purple;
-  --indigo: #4b0082;
+
+  --tempgreen: #686939;
 
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
-  --base_font: "Droid Serif";
-  --base_fontsize: 16px;
+  --base_font: "Droid Serif", Georgia, serif;
+  --base_fontsize: 17px;
   --base_lineheight: 1.5;
 
   /* Fonts

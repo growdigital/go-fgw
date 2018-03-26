@@ -31,7 +31,7 @@
 
 .header__h a:active,
 .header__h a:hover {
-  color: green;
+  color: var(--blue);
 }
 
 .header__cloud {
