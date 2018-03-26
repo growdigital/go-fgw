@@ -10,16 +10,18 @@
   /* Use linear gradient as background image, so that logo can sit on top of the 1px line */
   background-image: linear-gradient(to top, var(--green_white), var(--green_white) 1px, rgba(255,255,255,0) 0);
   display: flex;
-  padding: 20px 0 0 14px;
+  justify-content: flex-start;
+  padding: 20px 0 0 8%;
 }
 
 .header__logo {
   height: 43px;
-  margin-right: 11px;
+  margin-right: 17%;
 }
 
 .header__h {
   font-size: 1.4375rem;
+  line-height: 1.8;
 }
 
 .header__h a:link,
@@ -34,6 +36,7 @@
 }
 
 .header__cloud {
-  margin-left: 14%;
+  /* align-self: flex-end; */
 }
+
 

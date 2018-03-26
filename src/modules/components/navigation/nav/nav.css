@@ -4,10 +4,10 @@
 
 .nav {
   background-color: var(--green);
-  justify-content: center;
   display: flex;
+  font-family: var(--sans);
   margin-bottom: 1rem;
-  padding: 12px 0;
+  padding: 9px 0 11px 14%;
 }
 
 .nav > * {

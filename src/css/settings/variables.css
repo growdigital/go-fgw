@@ -30,4 +30,7 @@
   --base_fontsize: 16px;
   --base_lineheight: 1.5;
 
+  /* Fonts
+     ======================================================================== */
+  --sans: Cabin, sans-serif;
 }
