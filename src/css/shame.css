@@ -21,36 +21,10 @@
  * 😄
  */
 
-/* Pagination, built-in Hugo template class */
-.pagination {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.pagination > * {
-  margin: 0 1em;
-  text-align: center;
-  width: 2em;
+.main {
+  padding: 0 1rem;
 }
 
-.pagination .active {
-  outline: 1px solid var(--dark);
-}
-
-/* o-list-bare centered (both ways) inline list using flexbox */
-.o-list-bare {
-  align-items: center; /* Secondary axis alignment */
-  display: flex;
-  height: 100%; /* To fill container vertically */
-  justify-content: center;
-  padding: 0.5rem 0; /* temp padding */
-}
-
-.o-list-bare > * {
-  margin: 0 1rem;
-}
 
 /* for article meta info */
 .meta dt {
@@ -59,8 +33,4 @@
   font-weight: bold;
 }
 
-/* debug border */
-.border {
-  border: 1px solid red;
-}
 

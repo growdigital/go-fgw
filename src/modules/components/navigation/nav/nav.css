@@ -5,9 +5,10 @@
 .nav {
   background-color: var(--green);
   display: flex;
+  justify-content: center;
   font-family: var(--sans);
   margin-bottom: 1rem;
-  padding: 13px 0 15px 0;
+  padding: 16px 0 18px 0;
 }
 
 .nav__list {
@@ -18,7 +19,8 @@
 }
 
 .nav__list > * {
-  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
   margin: 0 1rem 0 0;
   padding: 0;
 }
@@ -29,7 +31,7 @@
   border-radius: 3px;
   box-shadow: inset 0 0 2px var(--dark);
   color: white;
-  padding: 4px 8px 5px;
+  padding: 5px 9px 6px;
   text-decoration: none;
 }
 
