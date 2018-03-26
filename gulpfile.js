@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const browserSync = require('browser-sync').create();
 const	concat = require('gulp-concat');
 const	cssnext = require('postcss-cssnext');
 const	del = require('del');
@@ -79,6 +80,13 @@ gulp.task('watch', function() {
 	gulp.watch(paths.img, ['minimage']);
 });
 
+// Browsersync
+gulp.task('browser-sync', function() {
+  browserSync.init({
+    proxy: "http://localhost:1313/"
+  });
+});
+
 // Clean task, delete generated files
 gulp.task('clean', function(cb) {
 	del(['./static/**/*'], cb);
@@ -86,6 +94,7 @@ gulp.task('clean', function(cb) {
 
 // Default task
 gulp.task('default', [
+  'browser-sync',
 	'css',
 	'minimage',
   'js',

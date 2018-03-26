@@ -20,8 +20,9 @@
 }
 
 .header__h {
-  font-size: 1.4375rem;
-  line-height: 1.8;
+  font-size: 1.625rem;
+  line-height: 1.4;
+  margin-right: 8%;
 }
 
 .header__h a:link,

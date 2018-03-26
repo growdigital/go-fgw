@@ -52,10 +52,7 @@
   margin: 0 1rem;
 }
 
-hr {
-  border-top: 1px solid var(--light);
-}
-
+/* for article meta info */
 .meta dt {
   float: left;
   width: 8em;
