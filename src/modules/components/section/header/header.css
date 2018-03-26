@@ -8,26 +8,24 @@
 
 .header__card {
   /* Use linear gradient as background image, so that logo can sit on top of the 1px line */
-  background-image: linear-gradient(to top, var(--green_white), var(--green_white) 1px, rgba(255,255,255,0) 0);
+  background-image: linear-gradient(to top, var(--green_white), var(--green_white) 2px, rgba(255,255,255,0) 0);
   display: flex;
   justify-content: flex-start;
-  padding: 20px 0 0 8%;
+  padding-top: 20px;
 }
 
 .header__logo {
   height: 43px;
-  margin-right: 17%;
 }
 
 .header__h {
   font-size: 1.625rem;
   line-height: 1.4;
-  margin-right: 8%;
 }
 
 .header__h a:link,
 .header__h a:visited {
-  color: var(--orange);
+  color: var(--orange_tint);
   text-decoration: none;
 }
 

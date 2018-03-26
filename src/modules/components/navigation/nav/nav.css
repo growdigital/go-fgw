@@ -8,18 +8,20 @@
   font-family: var(--sans);
   margin-bottom: 1rem;
   padding: 9px 0 11px 14%;
+  text-transform: capitalize;
 }
 
 .nav > * {
   margin: 0 1rem;
 }
-/* Nav active item */
-/* .nav .is-active {
-  color: var(--dark) !important;
-} */
 
 .nav a:link,
 .nav a:visited {
   color: white;
   text-decoration: none;
 }
+
+/* Nav active item */
+/* .nav .is-active {
+  color: var(--dark) !important;
+} */
