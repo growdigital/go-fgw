@@ -13,6 +13,7 @@
   justify-content: flex-start;
   padding-top: 20px;
   padding-left: 5%;
+  position: relative;
 }
 
 .header__logo {
