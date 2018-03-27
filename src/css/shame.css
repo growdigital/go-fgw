@@ -22,8 +22,20 @@ figure {
 }
 
 figcaption {
-  /* background-color: orange; */
   font-size: 0.9rem;
   font-style: italic;
   padding: 0.3rem 0.1rem 0.3rem 0.2rem;
 }
+
+/* should be able to abstract this, currentColor... ?
+.whiteout a:link,
+.whiteout a:visited {
+  color: var(--green_white);
+  text-decoration: none;
+}
+
+.whiteout a:hover,
+.whiteout a:active {
+  text-decoration: underline;
+}
+*/
