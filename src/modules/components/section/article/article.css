@@ -1,13 +1,10 @@
 /* ==========================================================================
-   Wrapper
+   Article
    ========================================================================== */
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.wrapper__pad {
-  padding: 0 8% 0 5%;
-  margin: 1rem 0;
+/* For article meta info (author, date, permalink) */
+.article__meta dt {
+  float: left;
+  width: 8em;
+  font-weight: bold;
 }

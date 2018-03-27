@@ -2,12 +2,12 @@
 <html lang="{{ .Site.LanguageCode }}">
 {{ partial "metahead.html" . }}
 <body>
+  {{ partial "header.html" . }}
   <div class="wrapper">
-    {{ partial "header.html" . }}
     {{ block "main" . }}
-    {{ end }} 
+    {{ end }}
     {{ partial "aside.html" . }}
-    {{ partial "footer.html" . }}
   </div>
+  {{ partial "footer.html" . }}
 </body>
 </html>
