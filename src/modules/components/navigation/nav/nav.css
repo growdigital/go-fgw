@@ -5,15 +5,20 @@
 .nav {
   background-color: var(--green);
   font-family: var(--sans);
-  padding: 16px 0 16px 5%;
+  padding: 16px 0;
+}
+
+.nav--main {
+  padding-left: 5%;
+}
+
+.nav--secondary {
+  background-color: var(--brown);
 }
 
 .nav__list {
   display: flex;
   justify-content: space-evenly;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav__list > * {

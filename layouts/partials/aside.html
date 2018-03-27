@@ -1,11 +1,4 @@
-<aside role="complementary">
-  <h2>Secondary navigation</h2>
-  <nav class="nav">
-    {{ $currentPage := . }} {{ range .Site.Menus.secondary }}
-    <a class="{{ if or ($currentPage.IsMenuCurrent " secondary " .) ($currentPage.HasMenuCurrent "secondary " .) }}is-active{{ end }}"
-      href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-  </nav>
+<aside class="aside" role="complementary">
   <h2><a href="{{ .Permalink }}blog/">Blog posts</a></h2>
   <ol>
     {{ range first 4 (where .Site.Pages "Section" "blog") }}

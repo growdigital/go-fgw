@@ -1,4 +1,13 @@
 <footer class="footer" id="footer" role="contentinfo">
+  <nav class="nav nav--secondary">
+    <ol class="nav__list wrapper o-list-bare">
+      {{ $currentPage := . }} {{ range .Site.Menus.secondary }}
+      <li>
+        <a class="{{ if or ($currentPage.IsMenuCurrent " secondary " .) ($currentPage.HasMenuCurrent "secondary" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ol>
+  </nav>
   <div>
     <ol class="o-list-bare">
       <li>

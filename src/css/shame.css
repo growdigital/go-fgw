@@ -16,4 +16,14 @@
 /* list-bare.css example of CSS object in /src/modules/objects/, header.hbs and footer.hbs */
 
 
+/* put in base.css */
+figure {
+  margin: 0;
+}
 
+figcaption {
+  /* background-color: orange; */
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 0.3rem 0.1rem 0.3rem 0.2rem;
+}

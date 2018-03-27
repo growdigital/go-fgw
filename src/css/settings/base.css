@@ -17,7 +17,7 @@
 /* Apply variables */
 html {
   background-color: var(--green_wash);
-  color: var(--dark);
+  color: var(--gray_dark);
   font-family: var(--base_font);
   font-size: var(--base_fontsize);
   line-height: var(--base_lineheight);

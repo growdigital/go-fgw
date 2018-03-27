@@ -18,5 +18,5 @@
 }
 
 .pagination .active {
-  outline: 1px solid var(--dark);
+  outline: 1px solid var(--gray_dark);
 }
