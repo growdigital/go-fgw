@@ -44,6 +44,12 @@
 }
 
 /* Nav active item */
-.nav__list .is-active {
+.nav--main .is-active {
   background-color: var(--tempgreen);
 }
+
+.nav--secondary .is-active {
+  background-color: var(--brown_dark);
+}
+
+
