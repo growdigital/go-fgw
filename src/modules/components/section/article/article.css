@@ -1,0 +1,10 @@
+/* ==========================================================================
+   Article
+   ========================================================================== */
+
+/* For article meta info (author, date, permalink) */
+.article__meta dt {
+  float: left;
+  width: 8em;
+  font-weight: bold;
+}

@@ -15,22 +15,5 @@
 
 /* list-bare.css example of CSS object in /src/modules/objects/, header.hbs and footer.hbs */
 
-/**
- * Temporary styling for layout
- * Putting it in shame.css makes it easier for you to implement your own components and objects
- * 😄
- */
-
-.main {
-  padding: 0 1rem;
-}
-
-
-/* for article meta info */
-.meta dt {
-  float: left;
-  width: 8em;
-  font-weight: bold;
-}
 
 

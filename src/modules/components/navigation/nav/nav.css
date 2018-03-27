@@ -4,36 +4,43 @@
 
 .nav {
   background-color: var(--green);
-  display: flex;
-  justify-content: center;
   font-family: var(--sans);
-  margin-bottom: 1rem;
-  padding: 16px 0 18px 0;
+  /* margin-bottom: 1rem; */
+  padding: 16px 0 16px 5%;
 }
 
 .nav__list {
   display: flex;
+  /* justify-content: center; */
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .nav__list > * {
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 0.03rem;
-  margin: 0 1rem 0 0;
+  margin: 0 1.1rem 0 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .nav__list a:link,
 .nav__list a:visited {
-  background-color: var(--tempgreen);
+  /* background-color: var(--tempgreen); */
   border-radius: 3px;
-  box-shadow: inset 0 0 2px var(--dark);
-  color: white;
-  padding: 5px 9px 6px;
+  /* box-shadow: inset 0 0 2px #555; */
+  color: var(--green_white);
+  font-weight: normal;
+  /* padding: 5px 9px 6px; */
   text-decoration: none;
 }
+
+.nav__list a:hover,
+.nav__list a:active {
+  text-decoration: underline;
+}
+
 
 /* Nav active item */
 /* .nav .is-active {
