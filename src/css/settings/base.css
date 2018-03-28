@@ -112,3 +112,17 @@ video {
   height: auto;
   max-width: 100%;
 }
+
+/**
+ * Figure
+ */
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 0.3rem 0.1rem 0.3rem 0.2rem;
+}
