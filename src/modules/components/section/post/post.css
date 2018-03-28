@@ -1,7 +1,14 @@
 /* ==========================================================================
-   Blog
+   Post
    ========================================================================== */
 
-.blog__date {
+/* For article meta info (author, date, permalink) */
+.post__meta dt {
+  float: left;
+  width: 6rem;
+  font-weight: bold;
+}
+
+.post__time {
   font-style: italic;
 }

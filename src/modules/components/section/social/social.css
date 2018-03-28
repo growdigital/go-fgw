@@ -20,10 +20,6 @@
   margin: 0 1rem;
 }
 
-.social--media {
-  text-transform: uppercase;
-}
-
 .social a:link,
 .social a:visited {
   color: var(--blue_light);
