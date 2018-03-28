@@ -2,7 +2,7 @@
   <main class="wrapper__pad">
     <article class="post h-entry" itemscope itemtype="https://schema.org/Article">
       {{ partial "micro-schema.html" . }}
-      <h1 class="p-name">
+      <h1 class="post__h post__h--status p-name">
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
       </h1>
       <div class="e-content">
@@ -21,7 +21,7 @@
         </dd>
         <dt>Date:</dt>
         <dd>
-          <time class="post__date dt-published" pubdate itemprop="datePublished">
+          <time class="post__time dt-published" pubdate itemprop="datePublished">
              {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006 03:04pm" }}
           </time>
         </dd>

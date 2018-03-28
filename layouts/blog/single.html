@@ -2,11 +2,11 @@
   <main class="wrapper__pad">
     <article class="post h-entry" itemscope itemtype="https://schema.org/Article">
       {{ partial "micro-schema.html" . }}
-      <h1 class="p-name">{{ .Title }}</h1>
-      <time class="post__date dt-published" pubdate itemprop="datePublished">
+      <h1 class="post__h p-name">{{ .Title }}</h1>
+      <time class="post__time dt-published" pubdate itemprop="datePublished">
         {{ .Date.Format "Monday" }}, {{ .Date.Format "2" | humanize}} {{ .Date.Format "January 2006" }}
       </time>
-      <p class="p-summary">{{ .Description }}</p>
+      <p class="post__desc p-summary">{{ .Description }}</p>
       {{ if .Params.image }}
       <figure>
         <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
