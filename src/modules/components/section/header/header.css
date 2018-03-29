@@ -6,9 +6,12 @@
   background-color: var(--green_light);
 }
 
-.header__card {
-  /* Use linear gradient as background image, so that logo can sit on top of the 1px line */
+.header .h-card {
+  /* Use linear gradient as background image, so that logo can sit on top of the 2px line */
   background-image: linear-gradient(to top, var(--green_white), var(--green_white) 2px, rgba(255,255,255,0) 0);
+}
+
+.header__card {
   display: flex;
   justify-content: flex-start;
   padding-top: 20px;
