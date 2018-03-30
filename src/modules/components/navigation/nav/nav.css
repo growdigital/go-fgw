@@ -5,7 +5,7 @@
 .nav {
   background-color: var(--green);
   font-family: var(--sans);
-  padding: 16px 0;
+  padding: 13px 0 18px;
 }
 
 .nav--main {
@@ -39,17 +39,11 @@
 }
 
 .nav .nav__list a:hover,
-.nav .nav__list a:active {
-  text-decoration: underline;
-}
-
+.nav .nav__list a:active,
 /* Nav active item */
-.nav--main .is-active {
-  background-color: var(--green_up);
-}
-
+.nav--main .is-active,
 .nav--secondary .is-active {
-  background-color: var(--brown_dark);
+  border-bottom: 3px solid var(--green_light);
 }
 
 
