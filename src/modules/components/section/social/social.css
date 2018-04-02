@@ -6,6 +6,7 @@
   background-color: var(--brown_dark);
   color: var(--green_white);
   display: flex;
+  flex-wrap: wrap;
   font-family: var(--sans);
   justify-content: center;
   padding: 1rem 0;
