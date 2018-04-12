@@ -9,5 +9,17 @@
     {{ partial "aside.html" . }}
   </div>
   {{ partial "footer.html" . }}
+  <!-- TODO: add script to JS to be concatenated -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
