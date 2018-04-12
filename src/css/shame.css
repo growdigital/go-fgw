@@ -71,3 +71,7 @@ label {
   font-size: small;
   margin-bottom: 1rem;
 }
+
+figure {
+  margin: 1rem 0 0.5rem;
+}
