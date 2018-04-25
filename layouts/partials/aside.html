@@ -1,5 +1,5 @@
 <aside class="wrapper__pad" role="complementary">
-  <h2><a href="{{ .Permalink }}blog/">Blog posts</a></h2>
+  <h2><a href="/blog/">Blog posts</a></h2>
   <ol>
     {{ range first 4 (where .Site.Pages "Section" "blog") }}
     <li>
@@ -9,7 +9,7 @@
     </li>
     {{ end }}
   </ol>
-  <h2><a href="{{ .Permalink }}status/">Status udpates</a></h2>
+  <h2><a href="/status/">Status udpates</a></h2>
   <ol>
     {{ range first 4 (where .Site.Pages "Section" "status") }}
     <li>
