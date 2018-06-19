@@ -14,12 +14,13 @@
     {{ range first 4 (where .Site.Pages "Section" "status") }}
     <li>
       <a href="{{ .Permalink }}">
-         {{ substr (.Title | markdownify) 0 30 }}…
+        {{ substr (.Title | markdownify) 0 30 }}…
       </a>
     </li>
     {{ end }}
   </ol>
-  <h2>Subscribe to mailing list</h2>
+  <h2>Keep in touch</h2>
+  <p>News relating to Forest Garden Wales, a few times a year</p>
   <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup">
     <form action="https://wales.us17.list-manage.com/subscribe/post?u=bef914615b5448ad5636c38fb&amp;id=10e50a6c17" method="post"
